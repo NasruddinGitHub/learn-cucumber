@@ -1,0 +1,3 @@
+com\learn\cucumber\running\TestRunner.class
+com\learn\cucumber\stepdefinitions\TesReport.class
+com\learn\cucumber\stepdefinitions\RegistrationStepDef.class

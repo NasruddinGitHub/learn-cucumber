@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com.learn.cucumber.running.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 28.49 s <<< FAILURE! -- in com.learn.cucumber.running.TestRunner
+com.learn.cucumber.running.TestRunner.runScenario["Validate whether the user is able to register with the username that was already created earlier", "File uploading functionality"](1) -- Time elapsed: 24.56 s <<< FAILURE!
+java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.fail(Assert.java:115)
+	at com.learn.cucumber.stepdefinitions.RegistrationStepDef.i_see_field_level_error_message_at_email_field(RegistrationStepDef.java:50)
+	at ✽.I see field level error message at email field(file:///C:/Users/shaik_n/eclipse-workspace/learn-cucumber/src/test/resources/application-features/file-upload.feature:13)
+
